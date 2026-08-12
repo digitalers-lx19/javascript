@@ -1,0 +1,59 @@
+@import 'classes';
+.gallery {
+    @extend %p-relative;
+    min-height: min(80vh, 320px);
+    &-item {
+        @extend %zeroise, %p-absolute, %top-0, %left-0, %w-100, %h-100;
+        transition: all .5s linear;
+        z-index: -1;
+        @for $i from 0 through 10 {
+            &:nth-child(#{$i}n) {
+                background-image: radial-gradient(
+                    circle at top right,
+                    hsl((720 / 10) * $i, 50%, 50%),
+                    hsl((180 / 10) * $i, 50%, 50%),
+                )
+            }
+            &.alt:nth-child(#{$i}n){
+                background-image: linear-gradient(
+                    to bottom right,
+                    hsl((360 / 6 ) * $i, 50%, 50%),
+                    hsl((720 / 6) * $i, 50%, 50%)
+                );
+            }
+        }
+        &.active{
+            z-index: 1;
+        }
+    }
+    &-controllers{
+        @include box(1rem, .5rem auto, center, text-align);
+        @extend %p-absolute, %bottom-5, %left-25, %right-25;
+        button {
+            @include box(.25rem, .5rem, 1px solid #eee, $ma: border-radius);
+            &.active {
+                padding: .25rem .75rem;
+            }
+        }
+    }
+    &-nav {
+        @extend %zeroise, %p-absolute, %top-0, %bottom-0, %w-20, %h-100, %fs-40, %opacity-50;
+        background-color: transparent;
+        color: #eee;
+        &:hover{
+            @extend %opacity-80;
+        }
+        &.prev{
+            @extend %left-0;
+            &:before {
+                content: '<'
+            }
+        }
+        &.next {
+            @extend %right-0;
+            &:before {
+                content: '>'
+            }
+        }
+    }
+}
