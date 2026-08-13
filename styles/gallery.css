@@ -50,6 +50,10 @@
   font-size: 2rem;
 }
 
+.gallery-item {
+  opacity: 20%;
+}
+
 .gallery-nav {
   opacity: 50%;
 }
@@ -58,10 +62,20 @@
   opacity: 80%;
 }
 
+.gallery-item.active {
+  opacity: 100%;
+}
+
 .gallery-nav, .gallery-item {
   margin: 0;
   border: 0;
   padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: all 0.25s linear;
 }
 
 .gallery {
@@ -138,7 +152,7 @@
   background-image: linear-gradient(to bottom right, #4040bf, #40bf40);
 }
 .gallery-item.active {
-  z-index: 1;
+  z-index: 0;
 }
 .gallery-controllers {
   margin: 0.5rem auto;
@@ -156,6 +170,7 @@
 .gallery-nav {
   background-color: transparent;
   color: #eee;
+  transition: all 0.25s ease-out;
 }
 .gallery-nav.prev:before {
   content: "<";

@@ -1,9 +1,14 @@
 @import 'classes';
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: all .25s linear;
+}
 .gallery {
     @extend %p-relative;
     min-height: min(80vh, 320px);
     &-item {
-        @extend %zeroise, %p-absolute, %top-0, %left-0, %w-100, %h-100;
+        @extend %zeroise, %p-absolute, %top-0, %left-0, %w-100, %h-100, %opacity-20;
         transition: all .5s linear;
         z-index: -1;
         @for $i from 0 through 10 {
@@ -23,7 +28,8 @@
             }
         }
         &.active{
-            z-index: 1;
+            @extend %opacity-100;
+            z-index: 0;
         }
     }
     &-controllers{
@@ -40,6 +46,7 @@
         @extend %zeroise, %p-absolute, %top-0, %bottom-0, %w-20, %h-100, %fs-40, %opacity-50;
         background-color: transparent;
         color: #eee;
+        transition: all .25s ease-out;
         &:hover{
             @extend %opacity-80;
         }
