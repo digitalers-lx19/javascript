@@ -25,7 +25,10 @@ $properties:
     }
 }
 @each $className, $attr, $unit in $properties {
-    @for $i from 0 through 10 {
+    @for $i from 0 through 10 {      
+        .#{$className}-#{$i * 10}{
+            #{$attr}: $i * $unit;
+        }
         %#{$className}-#{$i * 10}{
             #{$attr}: $i * $unit;
 }}}

@@ -34,36 +34,388 @@
   left: 25%;
 }
 
+.w-0 {
+  width: 0%;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
 .gallery-nav {
   width: 20%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-100 {
+  width: 100%;
 }
 
 .gallery-item {
   width: 100%;
 }
 
+.h-0 {
+  height: 0%;
+}
+
+.h-10 {
+  height: 10%;
+}
+
+.h-20 {
+  height: 20%;
+}
+
+.h-30 {
+  height: 30%;
+}
+
+.h-40 {
+  height: 40%;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.h-60 {
+  height: 60%;
+}
+
+.h-70 {
+  height: 70%;
+}
+
+.h-80 {
+  height: 80%;
+}
+
+.h-90 {
+  height: 90%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
 .gallery-nav, .gallery-item {
   height: 100%;
+}
+
+.fs-0 {
+  font-size: 0rem;
+}
+
+.fs-10 {
+  font-size: 0.5rem;
+}
+
+.fs-20 {
+  font-size: 1rem;
+}
+
+.fs-30 {
+  font-size: 1.5rem;
+}
+
+.fs-40 {
+  font-size: 2rem;
 }
 
 .gallery-nav {
   font-size: 2rem;
 }
 
+.fs-50 {
+  font-size: 2.5rem;
+}
+
+.fs-60 {
+  font-size: 3rem;
+}
+
+.fs-70 {
+  font-size: 3.5rem;
+}
+
+.fs-80 {
+  font-size: 4rem;
+}
+
+.fs-90 {
+  font-size: 4.5rem;
+}
+
+.fs-100 {
+  font-size: 5rem;
+}
+
+.opacity-0 {
+  opacity: 0%;
+}
+
+.opacity-10 {
+  opacity: 10%;
+}
+
+.opacity-20 {
+  opacity: 20%;
+}
+
 .gallery-item {
   opacity: 20%;
+}
+
+.opacity-30 {
+  opacity: 30%;
+}
+
+.opacity-40 {
+  opacity: 40%;
+}
+
+.opacity-50 {
+  opacity: 50%;
 }
 
 .gallery-nav {
   opacity: 50%;
 }
 
+.opacity-60 {
+  opacity: 60%;
+}
+
+.opacity-70 {
+  opacity: 70%;
+}
+
+.opacity-80 {
+  opacity: 80%;
+}
+
 .gallery-nav:hover {
   opacity: 80%;
 }
 
+.opacity-90 {
+  opacity: 90%;
+}
+
+.opacity-100 {
+  opacity: 100%;
+}
+
 .gallery-item.active {
   opacity: 100%;
+}
+
+.p-0 {
+  padding: 0rem;
+}
+
+.p-10 {
+  padding: 0.25rem;
+}
+
+.p-20 {
+  padding: 0.5rem;
+}
+
+.p-30 {
+  padding: 0.75rem;
+}
+
+.p-40 {
+  padding: 1rem;
+}
+
+.p-50 {
+  padding: 1.25rem;
+}
+
+.p-60 {
+  padding: 1.5rem;
+}
+
+.p-70 {
+  padding: 1.75rem;
+}
+
+.p-80 {
+  padding: 2rem;
+}
+
+.p-90 {
+  padding: 2.25rem;
+}
+
+.p-100 {
+  padding: 2.5rem;
+}
+
+.m-0 {
+  margin: 0rem;
+}
+
+.m-10 {
+  margin: 0.25rem;
+}
+
+.m-20 {
+  margin: 0.5rem;
+}
+
+.m-30 {
+  margin: 0.75rem;
+}
+
+.m-40 {
+  margin: 1rem;
+}
+
+.m-50 {
+  margin: 1.25rem;
+}
+
+.m-60 {
+  margin: 1.5rem;
+}
+
+.m-70 {
+  margin: 1.75rem;
+}
+
+.m-80 {
+  margin: 2rem;
+}
+
+.m-90 {
+  margin: 2.25rem;
+}
+
+.m-100 {
+  margin: 2.5rem;
+}
+
+.b-0 {
+  border: 0px;
+}
+
+.b-10 {
+  border: 1px;
+}
+
+.b-20 {
+  border: 2px;
+}
+
+.b-30 {
+  border: 3px;
+}
+
+.b-40 {
+  border: 4px;
+}
+
+.b-50 {
+  border: 5px;
+}
+
+.b-60 {
+  border: 6px;
+}
+
+.b-70 {
+  border: 7px;
+}
+
+.b-80 {
+  border: 8px;
+}
+
+.b-90 {
+  border: 9px;
+}
+
+.b-100 {
+  border: 10px;
+}
+
+.r-0 {
+  border-radius: 0rem;
+}
+
+.r-10 {
+  border-radius: 0.2rem;
+}
+
+.r-20 {
+  border-radius: 0.4rem;
+}
+
+.r-30 {
+  border-radius: 0.6rem;
+}
+
+.r-40 {
+  border-radius: 0.8rem;
+}
+
+.r-50 {
+  border-radius: 1rem;
+}
+
+.r-60 {
+  border-radius: 1.2rem;
+}
+
+.r-70 {
+  border-radius: 1.4rem;
+}
+
+.r-80 {
+  border-radius: 1.6rem;
+}
+
+.r-90 {
+  border-radius: 1.8rem;
+}
+
+.r-100 {
+  border-radius: 2rem;
 }
 
 .gallery-nav, .gallery-item {
