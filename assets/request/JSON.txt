@@ -1,0 +1,25 @@
+<h2>JSON (Javascript Simple Object Notaction)</h2>
+
+<p>
+    Formato de datos que se compone de <strong>claves y valores</strong> utilizado para simplificar <em>la comunicacion entre cliente y servidor</em>; este reemplaza al antiguo formato XML, por su simplicidad
+</p>
+<ul>
+    <li>XML:
+        <pre>
+            &lt;user>
+                &lt;username>c215714n</username>
+                &lt;email>cristiandracedo@hotmail.com</email>
+                &lt;age>35</age>
+            &lt;/user>
+        </pre>
+    </li>
+    <li> JSON:
+        <pre>
+            {
+                "username": "c215714n",
+                "email": "cristiandracedo@hotmail.com",
+                "age": 35
+            }   
+        </pre>
+    </li>
+</ul>

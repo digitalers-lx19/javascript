@@ -1,0 +1,21 @@
+{
+    "username": "cristian",
+    "email": "cristiandracedo@hotmail.com",
+    "age": 35,
+    "courses": [
+        "introduccion a html",
+        "maquetacion css",
+        "javascript desde cero",
+        "programacion orientada a objetos",
+        "introduccion a nodejs",
+        "bases de datos nosql",
+        "reactjs"
+    ],
+    "userData": {
+        "address": {
+            "street": "",
+            "number": "",
+            "city": ""
+        }
+    }
+}

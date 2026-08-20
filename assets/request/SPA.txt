@@ -1,0 +1,8 @@
+<h2>SPA (Single Page Application)</h2>
+
+<p>
+    Gracias a la asincronia, en la actualidad podemos desarrollar sitios que estan conformados por una sola pagina, enviando solicitudes al servidor para cargar las partes de la misma, sin necesidad de crear los archivos individuales para cada vista. Este enfoque aprovecha la logica de componentes, donde se indentifica cada parte individual que se repite dentro de la pagina. Un ejemplo muy comun son las redes sociales
+</p>
+<p>
+    Cabe destacar que no todos los sitios ameritan ser desarrollados como SPA, debido a que el SEO (search engine optimization) puede verse afectado, ya que al cargarse todo en la misma pagina, probablemente siempre seamos redirigidos, por los motores de busqueda, a la pantalla principal.
+</p>

@@ -1,0 +1,21 @@
+<h2>AJAX (Asynchronous Javascript and XML)</h2>
+
+<p>
+    Metodo que permite el intercambio de datos entre cliente y servidor de manera asincrona, es decir, No bloqueante. Debido a que javascript es un lenguaje monohilo, cada accion debe esperar a su resolucion para poder avanzar con la siguiente linea de codigo; por lo tanto, esta forma de trabajar, permite continuar con las operaciones posteriores, sin bloquear la actividad del usuario. Entre los metodos mas comunes se encuentran los siguientes:
+</p>
+<ul>
+    <li><strong>GET</strong>: Solicitar recursos al servidor</li>
+    <li><strong>POST</strong>: Enviar datos al servidor</li>
+    <li><strong>PUT</strong>: Actualizar un recurso</li>
+    <li><strong>DELETE</strong>: Eliminar un recurso</li>
+</ul>
+<p>
+    Debido a que cuando utilizamos AJAX se manejan <strong>solicitudes HTTP</strong>, es importante entender los estados y codigos para cada una de las respuestas otorgadas por el servidor, ademas de los metodos involucrados.
+</p>
+<ul>
+    <li><strong>100</strong>: Procesamiento de solicitud</li>
+    <li><strong>200</strong>: Operacion Exitosa (200 OK)</li>
+    <li><strong>300</strong>: Redireccionamiento</li>
+    <li><strong>400</strong>: Errores de cliente (404 NOT FOUND)</li>
+    <li><strong>500</strong>: Errores de Servidor (501 BAD GATEWAY)</li>
+</ul>

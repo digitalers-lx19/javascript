@@ -1,0 +1,4 @@
+<h2>ERROR: No se pudo renderizar el contenido</h2>
+<p>
+    Lo sentimos, pero el menu seleccionado no se encuentra disponible en estos momentos. Intente con otra opcion o vuelva a intentar en otro momento. Desde ya, muchas gracias.
+</p>
