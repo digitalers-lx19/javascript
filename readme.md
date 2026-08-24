@@ -8,4 +8,13 @@ Esto es una guia para los alumnos de la capacitacion __Digitalers NodeJS__ que c
 * Modelos de Objetos
     * [BOM](./docs/bom.md)
     * [DOM](./docs/dom.md)
-
+* Interfaces de Programacion de Aplicacion
+    * [Api de Eventos](./docs/event.md)
+    * [Symbols](./docs/symbol.md)
+    * [Proxy](./docs/proxy.md)
+* Programacion Asincrona
+    * [CallBack](./docs/cbfn.md)
+    * [XMLHttpRequest](./docs/xhr.md)
+    * [Promise](./docs/promise.md)
+    * [Fetch](./docs/fetch.md)
+    * [Async/Await](./docs/async.md)
