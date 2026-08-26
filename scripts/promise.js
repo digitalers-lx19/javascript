@@ -4,7 +4,7 @@ export const fetchData = async () => {
         let posts = await fetch(`${baseURL}/posts`);
         posts = await posts.json();
         posts.forEach(async (p) => {
-            let comments = await fetch(`${baseURL}/comments?postId=${p}`)
+            let comments = await fetch(`${baseURL}/comments?postId=${p.id}`)
             comments = await comments.json();
             console.log({...p, comments})
         })
