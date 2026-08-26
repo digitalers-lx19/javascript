@@ -2,7 +2,6 @@
 
 Esto es una guia para los alumnos de la capacitacion __Digitalers NodeJS__ que cursan los dias _Lunes y Miercoles de 19hs a 22hs_, donde podran acceder al contenido y descargar el material trabajado durante las clases.
 
-
 ## Tabla de Contenidos
 
 * Modelos de Objetos
@@ -22,3 +21,9 @@ Esto es una guia para los alumnos de la capacitacion __Digitalers NodeJS__ que c
     * [Promise](./docs/promise.md)
     * [Fetch](./docs/fetch.md)
     * [Async/Await](./docs/async.md)
+
+## Colaboradores
+
+| Usuario | Correo | Area |
+|-|-|-|
+| c215714n | cristiandracedo@hotmail.com | Documentacion |
