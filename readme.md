@@ -24,6 +24,10 @@ Esto es una guia para los alumnos de la capacitacion __Digitalers NodeJS__ que c
 * Paradigmas de Programacion
     * [Prototype](./docs/proto.md)
     * [Class](./docs/class.md)
+* Patrones de Diseño
+    * [Creacionales](./docs/creational.md)
+    * [Estructurales](./docs/structure.md)
+    * [Comportamiento](./docs/behavior.md)
     
 ---
 
