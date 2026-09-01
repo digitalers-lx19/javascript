@@ -1,10 +1,16 @@
-export const baseURL = "https://https:jsonplaceholder.typicode.com";
-export const { profile, phone, message, organization, repo } = { 
+export const baseURL = "https://jsonplaceholder.typicode.com";
+export const { 
+    profile,
+    phone,
+    message,
+    organization,
+    repository:repo
+} = { 
     profile: "racedocristian",
     phone: "1103034567",
     message: "Buenas tardes, quisiera hacer una consulta",
     organization: "digitalers-lx19",
-    repo: "javascript",
+    repository: "javascript",
 }
 export const navBarElements = [
     {
@@ -12,6 +18,7 @@ export const navBarElements = [
         className: 'navbar-brand | m-0 fs-5', 
         innerText: 'FakeGram'
     }, {
+        tag: 'button',
         className: 'navbar-toggler navbar-toggler-icon',
         dataset: {
             bsTarget: "nav ul",
@@ -28,16 +35,21 @@ export const navBarLinks = [
         class: "nav-link",
         url: "posts",
         text: "Inicio",
+        action: "getPosts"
     }, {
         type: "button",
         class: "nav-link",
         url: "profile",
         text: "perfil",
+        action: "getUserData",
+        params: 1
     }, {
         type: "button",
         class: "nav-link",
         url: "albums",
         text: "albumes",
+        action: "getUserAlbums",
+        params: 1
     },
 ]
 export const socialMediaLinks = [
