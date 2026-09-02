@@ -21,6 +21,6 @@ export const navigate =  (e) => {
         e.preventDefault();
         const { dataset } = e.target;
         const { action, params, url } = dataset;
-        if (action && params) Router[action](params)
         history.pushState("", "", url);
+        if (action) Router[action](params);
 } }
