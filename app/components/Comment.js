@@ -7,7 +7,7 @@ export class Comment {
         this.body = body
     }
     render(){ return `
-        <article id="p${this.postId}c-${this.id}" class="d-flex align-items-start gap-2">
+        <article id="p${this.postId}c-${this.id}" class="d-flex align-items-start gap-2 my-3">
             <img class="border border-4 border-dark rounded-circle p-4 | bg-dark bg-gradient" src="" alt="">
             <div class="card">
             <address class="card-header">
