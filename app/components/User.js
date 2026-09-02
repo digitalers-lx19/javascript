@@ -1,6 +1,10 @@
-class User {
+import { Address } from "./Address.js";
+import { Company } from "./Company.js";
+
+export class User {
+    #id;
     constructor({id, name, username, email, address, phone, website,company}){
-        this.id = id;
+        this.#id = id;
         this.name = name;
         this.username = username;
         this.email = email;
@@ -10,7 +14,7 @@ class User {
         this.company = new Company(company);
     }
     profile(){ return `
-        <article id="user-${this.id}" class="card">
+        <article id="user-${this.#id}" class="card">
             <header class="card-header">
                 <h2>${this.name} <strong>(${this.username})</strong></h2>
                 <p>${this.email}</p>
