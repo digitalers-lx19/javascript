@@ -1,0 +1,13 @@
+# Archivos
+.env
+.htaccess
+.package-lock.json
+*.tmp
+*.temp
+*.log
+*.doc
+
+# Carpetas
+temp/
+.vscode/
+.node_modules/
