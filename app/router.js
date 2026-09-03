@@ -1,4 +1,4 @@
-import { baseURL } from "./constants.js"
+import { baseURL } from "./constants/index.js"
 import { User } from "./components/User.js";
 import { Post } from "./components/Post.js";
 import { Comment } from "./components/Comment.js";

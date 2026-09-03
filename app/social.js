@@ -1,4 +1,4 @@
-import { socialMediaLinks } from "./constants.js";
+import { socialMediaLinks } from "./constants/index.js";
 import NavBar from "./components/NavBar.js";
 export const social = new NavBar({
     tag: "div",

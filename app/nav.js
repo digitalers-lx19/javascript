@@ -1,4 +1,4 @@
-import { navBarElements, navBarLinks } from "./constants.js";
+import { navBarElements, navBarLinks } from "./constants/index.js";
 import { create } from "./utils.js";
 import NavBar from "./components/NavBar.js";
 export const navbar = new NavBar({
